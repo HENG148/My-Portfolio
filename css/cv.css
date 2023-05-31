@@ -2,9 +2,124 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "open-sans", sans-serif;
 }
 
-/* .cv embed {
-	width: 120rem;
-	height: 150rem;
-} */
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.left-side {
+	width: 30rem;
+	/* background-color: #0517b3; */
+	padding-left: 2rem;
+	padding-top: 3rem;
+}
+
+.my-img {
+	width: 16rem;
+	height: 15rem;
+	border-radius: 50%;
+}
+.my-name {
+	font-family: "open-sans", sans-serif;
+	gap: 1.1rem;
+}
+
+.name {
+	font-size: 2.3rem;
+	font-weight: bold;
+	color: #000;
+}
+
+.majoring {
+	font-size: 1.7rem;
+	font-weight: bold;
+	color: #000;
+	padding-left: 0.4rem;
+	padding-bottom: 0.6rem;
+}
+
+.all-skill-content {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: aqua;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	gap: 01rem;
+	padding-bottom: 0.5rem;
+}
+
+.link i {
+	font-size: 1.1rem;
+}
+
+.link a,
+.link a:link,
+.link a:visited {
+	font-size: 1.2rem;
+	color: #000;
+	text-decoration: none;
+}
+
+.link a:hover,
+.link a:active {
+	color: #2d37ed;
+	/* font-weight: bold; */
+	text-decoration: underline solid #2d37ed;
+}
+
+.my-relevant {
+	display: flex;
+	align-items: center;
+	gap: 1.1rem;
+	padding-bottom: 0.4rem;
+}
+
+.my-relevant p {
+	font-size: 1.1rem;
+}
+
+.my-quantifiable {
+	display: flex;
+	align-items: center;
+	gap: 1.1rem;
+	padding-bottom: 0.4rem;
+}
+
+.my-quantifiable p {
+	font-size: 1.1rem;
+}
+
+.language-skill {
+	display: flex;
+	align-items: center;
+	gap: 1.1rem;
+	padding-bottom: 0.4rem;
+}
+
+.language-skill p {
+	font-size: 1.1rem;
+}
+
+.skill-title p {
+	font-size: 1.05rem;
+	font-weight: bold;
+	font-size: 1.3rem;
+	padding-left: 4rem;
+	padding-bottom: 1.1rem;
+}
+
+.intro-about-me p {
+	width: 25rem;
+}
+
+.my-certificate p {
+	font-size: 1.1rem;
+}

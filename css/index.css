@@ -91,6 +91,11 @@ section {
 	padding-left: 20rem;
 }
 
+.page-1 {
+	animation: page-1 5s infinite;
+	animation-fill-mode: forwards;
+}
+
 .page-1-page {
 	line-height: 3.7rem;
 	margin-top: 9rem;
@@ -103,7 +108,8 @@ section {
 	font-family: "open-sans", sans-serif;
 }
 
-.web-1-span:hover .web-1-span:active {
+.web-1-span:hover,
+.web-1-span:active {
 	transform: scale(1.1);
 	/* transition: 0.4s; */
 }
@@ -133,6 +139,10 @@ section {
 .hire-me a:active {
 	background-color: #f73995;
 	transition: 0.4s;
+}
+
+.my-prf {
+	animation: profle 5s infinite;
 }
 
 .my-prf img {
@@ -599,4 +609,22 @@ button {
 	font-size: 1.1rem;
 	border: 2px solid inherit;
 	border-radius: 7px;
+}
+
+@keyframes page-1 {
+	from {
+		left: 0;
+	}
+	to {
+		left: 50%;
+	}
+}
+
+@keyframes profile {
+	from {
+		right: 0;
+	}
+	to {
+		right: 50%;
+	}
 }
