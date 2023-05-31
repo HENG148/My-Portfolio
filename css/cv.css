@@ -9,23 +9,33 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	gap: 1rem;
 }
 
 .left-side {
-	width: 30rem;
+	width: 26rem;
 	/* background-color: #0517b3; */
+	background-color: #6168f2;
 	padding-left: 2rem;
 	padding-top: 3rem;
+}
+
+.left-side p {
+	color: #fff;
 }
 
 .my-img {
 	width: 16rem;
 	height: 15rem;
 	border-radius: 50%;
+	/* padding-left: 2rem; */
+	position: relative;
+	left: 1.5rem;
 }
 .my-name {
 	font-family: "open-sans", sans-serif;
 	gap: 1.1rem;
+	padding-top: 1rem;
 }
 
 .name {
@@ -58,19 +68,20 @@
 
 .link i {
 	font-size: 1.1rem;
+	color: #fff;
 }
 
 .link a,
 .link a:link,
 .link a:visited {
 	font-size: 1.2rem;
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 }
 
 .link a:hover,
 .link a:active {
-	color: #2d37ed;
+	color: #00faf6;
 	/* font-weight: bold; */
 	text-decoration: underline solid #2d37ed;
 }
@@ -114,6 +125,15 @@
 	font-size: 1.3rem;
 	padding-left: 4rem;
 	padding-bottom: 1.1rem;
+}
+
+.right-side {
+	margin-top: 0;
+}
+
+.about-me-text p {
+	font-size: 1.4rem;
+	font-weight: bold;
 }
 
 .intro-about-me p {
