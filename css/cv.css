@@ -128,11 +128,13 @@
 }
 
 .right-side {
-	margin-top: 0;
+	margin-top: 7rem;
+	margin-left: 2rem;
+	/* width: 45rem; */
 }
 
 .about-me-text p {
-	font-size: 1.4rem;
+	font-size: 1.9rem;
 	font-weight: bold;
 }
 
@@ -140,6 +142,91 @@
 	width: 25rem;
 }
 
-.my-certificate p {
+.intro-about-me {
+	display: flex;
+	margin-top: 1.6rem;
+	margin-left: 1rem;
+	/* align-items: center; */
+}
+
+.intro-content {
+	width: 6px;
+	height: 6px;
+	background-color: #000;
+	border-radius: 50%;
+	margin-top: 0.4rem;
+	margin-right: 1rem;
+}
+
+.intro-about-me p {
 	font-size: 1.1rem;
+	line-height: 1.7rem;
+}
+
+.education {
+	margin-top: 2rem;
+}
+
+.education-title p {
+	font-size: 1.9rem;
+	font-weight: bold;
+}
+
+.education-history {
+	padding-top: 1.6rem;
+	padding-left: 1rem;
+}
+
+.education-his {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+	padding-bottom: 0.3rem;
+}
+
+.edu {
+	padding-bottom: 0.7rem;
+}
+
+.education-his i {
+	font-size: 2.3rem;
+}
+
+.education-his p {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.edu-text {
+	font-size: 1.1rem;
+	padding-left: 2.5rem;
+}
+
+.certificate {
+	margin-top: 1.5rem;
+}
+
+.certificate-title p {
+	font-size: 1.9rem;
+	font-weight: bold;
+	padding-bottom: 1.4rem;
+}
+
+.my-certificate {
+	display: flex;
+	align-items: center;
+	padding-bottom: 1rem;
+	gap: 0.8rem;
+}
+
+.certificate-intro {
+	padding-left: 1.5rem;
+}
+
+.my-certificate i {
+	font-size: 1.7rem;
+}
+
+.my-certificate p {
+	font-size: 1.4rem;
 }
